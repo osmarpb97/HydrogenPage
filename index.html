@@ -1,0 +1,156 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Logo</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html">Home</a></li>
+        <li><a href="badges.html">Application</a></li>
+        <li><a href="collapsible.html">How It Works</a></li>
+        <li><a href="mobile.html">Certifications</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="sass.html">Sass</a></li>
+    <li><a href="badges.html">Components</a></li>
+    <li><a href="collapsible.html">Javascript</a></li>
+    <li><a href="mobile.html">Mobile</a></li>
+  </ul>
+
+  <div class="row">
+    <div class="abs valign-wrapper">
+
+      <div class="carousel carousel-slider center valign-wrapper">
+        <div class="carousel-fixed-item center">
+          <a class="btn waves-effect white grey-text darken-text-2" href="#SecondSection">button</a>
+        </div>
+        <div class="carousel-item white-text" href="#one!">
+          <div>
+            <h2>First Panel</h2>
+            <p class="white-text">This is your first panel</p>
+            <img src="/src/or.png" alt="process" />
+          </div>
+        </div>
+        <div class="carousel-item white-text" href="#one!">
+          <div>
+            <h2>First Panel</h2>
+            <p class="white-text">This is your first panel</p>
+            <img src="/src/car-49278.png" alt="process" class="imagen-wrapper" />
+          </div>
+        </div>
+        <div class="carousel-item  white-text" href="#three!">
+          <h2>Third Panel</h2>
+          <p class="white-text">This is your third panel</p>
+        </div>
+        <div class="carousel-item  white-text" href="#four!">
+          <h2>Fourth Panel</h2>
+          <p class="white-text">This is your fourth panel</p>
+        </div>
+      </div>
+    </div>
+    <div id="FirstSection" class="col s12">
+    </div>
+    <div id="SecondSection" class="col s6 valign-wrapper">
+      <div class="container">
+        <h1>10% - 30%</h1><br />
+        <h5>You can save a minimum of 10%, and up to 30% of your fuel expenditures through the use of hydrogen
+          injection.</h5>
+      </div>
+    </div>
+    <div id="ThirdSection" class="col s6 valign-wrapper">
+      <div class="container">
+        <h1>IHS i-phi ™</h1>
+        <h5>Technology is currently the only ISO 16046-2 compliant Hydrogen Injection </h5>
+      </div>
+    </div>
+
+    <div class="col s6 valign-wrapper">
+      <img src="/src/1.gif" alt="process" class="imagen-wrapper" />
+    </div>
+
+    <div class="col s6 valign-wrapper">
+      <div class="container">
+        <h4>THE SCIENCE BEHIND IHS HYDROGEN INJECTION TECHNOLOGY</h4>
+        <p>The IHS Hydrogen Injection System, Powered by i-phi ™ Technology, produces a mixture of hydrogen and oxygen
+          gases on demand with oxygen gases through a controlled electrolysis process. These gases are delivered to the
+          engine’s air intake, where they are mixed with the air and enter the engine’s cylinders, participating in the
+          combustion process.</p>
+        <p>Adding hydrogen with the IHS Hydrogen Injection System to a diesel engine or generator improves overall
+          engine combustion efficiency by producing a more complete burn of the air-fuel mixture. This results in a
+          decrease in greenhouse gases, reduced emissions and decreased fuel consumption.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Footer Content</h5>
+          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2014 Copyright Text
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.carousel');
+      var instances = M.Carousel.init(elems, {
+        fullWidth: true,
+        indicators: true
+      });
+    });
+  </script>
+</body>
+
+</html>

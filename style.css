@@ -1,0 +1,56 @@
+*{  scroll-behavior: smooth;    /* <----- THE SECRET ---- */
+}
+nav{
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+    z-index: 1;
+}
+.abs{
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+}
+.carousel{
+    height: 100%!important;
+}
+.centerimage{
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.carousel .carousel-item>img{
+    width: 60%;
+}
+.imagen-wrapper{
+    width: auto;
+    height: 100%;
+}
+.page-footer{
+    background-color: #192A31;
+}
+.s6{
+    height: 50vh;
+}
+
+
+#SecondSection{
+    background-color: #1C2F36;
+    color: white;
+    text-align: center;
+}
+
+#ThirdSection{
+    background-color: #192A31;
+    text-align: center;
+    color: white;
+    
+}
+
+#FirstSection{
+    height: 80vh;
+    
+    background-color: #A1AFB2;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
